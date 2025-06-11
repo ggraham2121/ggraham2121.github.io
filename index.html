@@ -7,15 +7,33 @@
   <style>
     body {
       font-family: 'Georgia', serif;
-      background: linear-gradient(135deg, #f0f0f8, #d0d0e8);
+      background: linear-gradient(135deg, #f9f9ff, #e0e0f8);
       color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
       max-width: 700px;
       margin: 60px auto;
       padding: 30px 40px;
       border-radius: 12px;
+      background: #fff;
       box-shadow: 0 0 15px rgba(100, 100, 150, 0.2);
       border: 1px solid #bbb;
+      animation: fadeInSlideUp 1.4s ease-out both;
     }
+
+    @keyframes fadeInSlideUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
     h1 {
       font-weight: normal;
       font-size: 2.8rem;
@@ -31,32 +49,36 @@
       font-size: 1.25rem;
       margin-bottom: 30px;
       color: #555;
+      animation: fadeInSlideUp 1.8s ease-out both;
     }
     ul {
       list-style-type: disc;
       padding-left: 25px;
       font-size: 1.1rem;
       line-height: 1.6;
+      animation: fadeInSlideUp 2.2s ease-out both;
     }
     ul li {
       margin-bottom: 12px;
     }
     .spicy {
-      color: #d33;
+      color: #c12;
       font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to Graham's GitHub Page</h1>
-  <p class="tagline">
-    Cybersecurity Engineer • IBM Omnibus/Netcool • <span class="spicy">Salsa Maker of the Year 🌶️</span>
-  </p>
-  <ul>
-    <li>QRadar</li>
-    <li>Netcool/Omnibus</li>
-    <li>AWS</li>
-    <li>Cognos</li>
-  </ul>
+  <div class="container">
+    <h1>Welcome to Graham's GitHub Page</h1>
+    <p class="tagline">
+      Cybersecurity Engineer • IBM Omnibus • Business Intellegence • <span class="spicy">Salsa Maker of the Year 🌶️</span>
+    </p>
+    <ul>
+      <li>QRadar</li>
+      <li>Netcool/Omnibus</li>
+      <li>AWS</li>
+      <li>Cognos</li>
+    </ul>
+  </div>
 </body>
 </html>
