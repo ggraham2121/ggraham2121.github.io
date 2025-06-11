@@ -1,0 +1,6 @@
+order_id,customer_id,product_id,amount
+1001,2,A1,250
+1002,1,A3,125
+1003,3,A2,300
+1004,2,A1,175
+1005,4,A4,150

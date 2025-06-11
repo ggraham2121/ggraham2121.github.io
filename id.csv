@@ -1,0 +1,4 @@
+id,first_name,last_name,email,department,salary,city
+1,John,Smith,john.smith@example.com,HR,50000,Orlando
+2,Mary,Jane,mary.jane@example.com,IT,60000,Tampa
+3,Bob,Barker,bob.barker@example.com,Manager,70000,Miami

@@ -1,0 +1,4 @@
+customer_id,first_name,last_name,order_id,customer_id_1,amount
+2,Jane,Doe  ,1001,2,250
+3,Bob ,Brown,1003,3,300
+4,Alic,Smith,1005,4,150
